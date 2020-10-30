@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
-/* @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Roboto:wght@300&display=swap&subset=cyrillic'); */
 
 * {
    margin: 0;
@@ -19,6 +18,8 @@ a {
    height: 74px;
    background-color: #D21E18;
    text-transform: uppercase;
+   position: fixed;
+   z-index: 1000;
 }
 
 .menu {
@@ -124,7 +125,7 @@ a {
    width: 310px;
    height: 148px;
    left: 433px;
-   top: 1623px;
+   margin-top: 130px;
    background: #D21E18;
    color: #ffffff;
 }
@@ -205,4 +206,103 @@ a {
 
 .insta-item {
    margin: 5px;
+}
+
+.makeup-block {
+   font-family: 'Roboto', sans-serif;
+   text-transform: uppercase;
+   font-size: 36px;
+   line-height: 37px;
+}
+
+.makeup-block {
+   /* height: 800px; */
+}
+
+.content-makeup-block{
+   margin-top: 50px;
+   text-align: center;
+}
+
+.makeup-items{
+   display: flex;
+   justify-content: center;
+   padding: 5px;
+   margin-top: 17px;
+}
+
+.main-makeup-item {
+   margin-top: 26px;
+}
+
+.main-makeup-red {
+   position: absolute;
+   width: 318px;
+   height: 148px;
+   left: 1185px;
+   margin-top: 145px;
+   background: #D21E18;
+   border-radius: 30px;
+}
+
+.main-makeup-red-content {
+   margin-top: 17px;
+   margin-left: 25px;
+}
+
+.makeup-title {
+   color: #ffffff;
+   font-size: 14px;
+   line-height: 17px;
+}
+
+.underline-makeup {
+   margin-bottom: 20px;
+}
+
+.makeup-goods-text {
+   font-size: 24px;
+   line-height: 29px;
+}
+
+.makeup-button-more{
+   margin-top: 15px;
+   width: 148px;
+   height: 49px;
+   border: 1px solid #FFFFFF;
+   box-sizing: border-box;
+   border-radius: 35px;
+   background-color: #D21E18;
+   color: #ffffff;
+}
+
+.main-makeup-img {
+   margin-left: 342px;
+}
+
+.makeup-item {
+   width: 304px;
+   margin: 5px;
+}
+
+.makeup-text-button {
+   margin-left: 15%;
+}
+
+.makeup-item-title {
+   font-size: 14px;
+   line-height: 17px;
+}
+
+.footer{
+   margin-top: 20px;
+   height: 295px;
+   background-color: #000000;
+   color: #ffffff;
+   font-family: 'Roboto', sans-serif;
+}
+
+.contacts {
+   padding-top: 28px;
+   margin-left: 332px;
 }
