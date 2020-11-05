@@ -53,9 +53,32 @@ a {
 .banner-block {
    margin: 0 auto;
    /* height: 600px; */
-   /* display:block;
-  width:100%;
-  height:auto; */
+   /* /* display:block; */
+   /* width:100%; */
+   /* height: auto; */
+}
+
+.button-arrows {
+   display: flex;
+}
+
+.button-arrow {
+   position: absolute;
+   width: 42px;
+   height: 42px;
+   border-radius: 100%;
+   background: #ffffff;
+   border: none;
+   margin-top: 319px;
+   box-shadow: 1px 1px 2px black, 0 0 1em red;
+}
+
+.button-arrow__left{
+   margin-left: 2%;
+}
+
+.button-arrow__right {
+   margin-left: 96%;
 }
 
 .banner-img {
@@ -81,6 +104,30 @@ a {
 
 .underline {
    margin-top: 5px;
+}
+
+.button-arrows__new {
+   display: flex;
+}
+
+.button-arrow__new {
+   position: absolute;
+   width: 42px;
+   height: 42px;
+   border-radius: 100%;
+   background: #ffffff;
+   border: none;
+   box-shadow: 1px 1px 2px black, 0 0 1em red;
+}
+
+.button-arrow-left__new {
+   margin-top: 250px;
+   margin-left: 18%;
+}
+
+.button-arrow-right__new {
+   margin-top: 250px;
+   margin-left: 80%;
 }
 
 .new-items {
@@ -129,6 +176,10 @@ a {
    text-align: center;
 }
 
+.main-hit {
+   align-items: center;
+}
+
 .main-hit-red {
    position: absolute;
    width: 310px;
@@ -173,6 +224,30 @@ a {
    display: flex;
    justify-content: center;
    padding: 5px;
+}
+
+.button-arrows__hit {
+   display: flex;
+}
+
+.button-arrow__hit {
+   position: absolute;
+   width: 42px;
+   height: 42px;
+   border-radius: 100%;
+   background: #ffffff;
+   border: none;
+   box-shadow: 1px 1px 2px black, 0 0 1em red;
+}
+
+.button-arrow-left__hit {
+   margin-top: 200px;
+   margin-left: -3%;
+}
+
+.button-arrow-right__hit {
+   margin-top: 200px;
+   margin-left: 60%;
 }
 
 .hit-item {
@@ -302,15 +377,19 @@ a {
 
 .footer{
    margin-top: 20px;
-   height: 295px;
+   height: 320px;
    background-color: #000000;
    color: #ffffff;
    font-family: 'Roboto', sans-serif;
+   display: flex;
+   justify-content: center;
 }
 
 .contacts {
    padding-top: 28px;
    margin-left: 332px;
+   padding-right: 50px;
+   width: calc(100% / 3);
 }
 
 .social {
@@ -320,6 +399,34 @@ a {
    justify-content: start;
 }
 
+.social {
+   margin: 15px;
+}
+
 .footer-social {
    padding: 5px;
+}
+
+.footer-text {
+   font-size: 16px;
+   margin-top: 16px;
+}
+
+.links {
+   padding-right: 50px;
+   margin-top: 28px;
+   line-height: 25px;
+}
+
+.footer-items{
+   list-style-type: none;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+
+.diploma {
+   padding-top: 28px;
+   padding-left: 50px;
 }
