@@ -13,6 +13,23 @@ a {
    text-decoration: none;
 }
 
+button {
+   cursor: pointer;
+}
+
+.button-button:hover {
+   background: #000000;
+   color: #ffffff;
+}
+
+img {
+   cursor: pointer;
+}
+
+.arrow-arrow:hover {
+   box-shadow: 1px 1px 2px black, 0 0 1em red;
+}
+
 .header {
    margin: 0 auto;
    width: 100vw;
@@ -70,7 +87,6 @@ a {
    background: #ffffff;
    border: none;
    margin-top: 319px;
-   box-shadow: 1px 1px 2px black, 0 0 1em red;
 }
 
 .button-arrow__left{
@@ -117,7 +133,7 @@ a {
    border-radius: 100%;
    background: #ffffff;
    border: none;
-   box-shadow: 1px 1px 2px black, 0 0 1em red;
+   /* box-shadow: 1px 1px 2px black, 0 0 1em red; */
 }
 
 .button-arrow-left__new {
@@ -243,7 +259,7 @@ a {
    border-radius: 100%;
    background: #ffffff;
    border: none;
-   box-shadow: 1px 1px 2px black, 0 0 1em red;
+   /* box-shadow: 1px 1px 2px black, 0 0 1em red; */
 }
 
 .button-arrow-left__hit {
